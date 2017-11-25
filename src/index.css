@@ -1,0 +1,51 @@
+.container {
+    width: 300px;
+    margin: auto;
+}
+
+.playfield {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cell-board {
+    height: 200px;
+    border: 2px solid;
+    padding-top: 70px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.menu {
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.menu p {
+    padding-top: 8px;
+    display: none;
+}
+
+#x, #o {
+    display: none;
+}
+
+.menu button {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 6px 10px;
+}
+
+#reset {
+    margin:auto;
+    display:block;
+}
+
